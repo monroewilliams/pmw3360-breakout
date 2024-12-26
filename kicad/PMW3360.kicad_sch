@@ -1182,7 +1182,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:TLV70218_SOT23-5"
+		(symbol "Regulator_Linear:TLV70018_SOT23-5"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1197,7 +1197,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV70218_SOT23-5"
+			(property "Value" "TLV70018_SOT23-5"
 				(at 0 5.715 0)
 				(effects
 					(font
@@ -1216,7 +1216,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv702.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv700.pdf"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -1225,7 +1225,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5"
+			(property "Description" "200mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1234,7 +1234,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "300mA LDO Regulator Fixed Positive"
+			(property "ki_keywords" "200mA LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1252,7 +1252,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV70218_SOT23-5_0_1"
+			(symbol "TLV70018_SOT23-5_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -1265,7 +1265,7 @@
 					)
 				)
 			)
-			(symbol "TLV70218_SOT23-5_1_1"
+			(symbol "TLV70018_SOT23-5_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1824,7 +1824,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000611fd0e7")
 		(property "Reference" "U1"
 			(at 133.35 86.36 0)
@@ -1929,7 +1929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV70218_SOT23-5")
+		(lib_id "Regulator_Linear:TLV70018_SOT23-5")
 		(at 69.85 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1945,7 +1945,7 @@
 				)
 			)
 		)
-		(property "Value" "TCR2EF19"
+		(property "Value" "TLV70018DDCR"
 			(at 69.85 91.4146 0)
 			(effects
 				(font
@@ -1963,7 +1963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv700.pdf"
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -1972,7 +1972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "200mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5"
 			(at 69.85 97.79 0)
 			(effects
 				(font
@@ -1981,7 +1981,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C146366"
+		(property "LCSC" "C79924"
 			(at 69.85 97.79 0)
 			(effects
 				(font
@@ -2041,7 +2041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -2060,6 +2060,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C133065"
 			(at 215.9 99.06 0)
 			(effects
 				(font
