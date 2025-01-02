@@ -2822,6 +2822,18 @@
 		(layer "Edge.Cuts")
 		(uuid "0c5619fe-dd16-4200-b2d3-7001c19e0378")
 	)
+	(gr_text "https://github.com/\nmonroewilliams/pmw3360-breakout"
+		(at 142.1 105.91 90)
+		(layer "B.SilkS")
+		(uuid "0eae24f8-f0a2-4b09-a039-07e69fcafa3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(segment
 		(start 141.775 103.91)
 		(end 143.55 103.91)
